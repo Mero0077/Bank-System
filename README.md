@@ -26,23 +26,24 @@ Features:
    
 	•	The system uses an enum to define permissions for user roles:
 
-enum enPermissions {  
-    eAll = -1,  
-    pListClients = 1,  
-    pAddNewClient = 2,  
-    pDeleteClient = 4,  
-    pUpdateClients = 8,  
-    pFindClient = 16,  
-    pTransactions = 32,  
-    pManageUsers = 64,  
-    pShowLogInRegister = 128  
-};  
+		enum enPermissions {  
+		    eAll = -1,  
+		    pListClients = 1,  
+		    pAddNewClient = 2,  
+		    pDeleteClient = 4,  
+		    pUpdateClients = 8,  
+		    pFindClient = 16,  
+		    pTransactions = 32,  
+		    pManageUsers = 64,  
+		    pShowLogInRegister = 128  
+		};  
 
 
 	•	Permission keys grant access to specific functionalities for example:
 	•	-1: Special user with access to all functionalities.
-	•	7: Access to listing, adding, and deleting clients.
-	•	0: Denied access, with a message “Access Denied”.
+	•	 7: Access to listing, adding, and deleting clients.
+	•	 0: Denied access, with a message “Access Denied”.
+
 
 4. Functionalities 🛠️
 
