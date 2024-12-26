@@ -1,4 +1,4 @@
-==Bank System with Login – C++== 🔐💻
+Bank System with Login – C++ 🔐💻
 
 Overview
 
