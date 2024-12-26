@@ -1,6 +1,7 @@
 Bank System with Login – C++ 🔐💻
 
-Overview
+
+Overview:
 
 This project is a robust Bank Management System built entirely in C++, showcasing advanced file handling, user authentication, and role-based permissions. Developing such functionality in C++ comes with unique challenges, but this project demonstrates a seamless integration of these features into a console-based application.
 
