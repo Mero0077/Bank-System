@@ -7,6 +7,7 @@ This project is a robust Bank Management System built entirely in C++, showcasin
 Features
 
 1. Login System 🔑
+   
 	•	User credentials are stored securely in an external file (users.txt) with encrypted passwords.
 	•	Fields in the file include Name, Email, UserID, Encrypted Password, and Permission Key.
 	•	Each record is delimited using #//# to ensure structured parsing.
@@ -14,12 +15,14 @@ Features
 		A simple yet effective technique subtracts 2 from each digit of the password before storing it.
 		Example: Password 1234 is stored as 3456.
 
-2. Clients Management 👥
+3. Clients Management 👥
+   
 	•	A separate file named clients.txt is used to store all the bank’s client data.
 	•	This file contains client information, enabling functionality such as listing, adding, updating, or deleting clients based on user permissions.
 	•	Operations on this file ensure a structured and organized system for client management.
 
-3. Role-Based Permissions 🛡️
+5. Role-Based Permissions 🛡️
+   
 	•	The system uses an enum to define permissions for user roles:
 
 enum enPermissions {  
@@ -52,21 +55,24 @@ After successful login, users can choose from 10 options, depending on their per
 
 
 5. File Handling 📂
+   
 	•	users.txt: Stores user credentials, encrypted passwords, and permission keys.
 	•	clients.txt: Stores all client-related data for the bank, allowing flexible and secure management of client information.
 	•	Files are parsed dynamically to retrieve, update, or modify data as needed.
 
 Challenges Overcome 🚀
+
 	•	Implementing an encrypted login system with role-based permissions in C++, without the luxury of built-in libraries, highlights the complexity and creativity required for file handling, enum-based permissions, and data encryption.
 	•	Managing user and client data securely while maintaining flexibility in permissions access is non-trivial, but this system demonstrates it efficiently.
 
 How to Run 🏃‍♂️
+
 	✅	Clone the repository to your local system.
 	✅	Ensure the following files are included in the project directory:
  
-	•	users.txt: Contains user credentials in the following format: Name#//#Email#//#UserID#//#EncryptedPassword#//#PermissionKey  
-
-Example: John Doe#//#john.doe@email.com#//#JD123#//#3456#//#7  
+	•	users.txt: Contains user credentials in the following format:
+               Name#//#Email#//#UserID#//#EncryptedPassword#//#PermissionKey  
+               Example: John Doe#//#john.doe@email.com#//#JD123#//#3456#//#7  
 
 
 	•	clients.txt: Contains the bank’s client data.
