@@ -16,13 +16,13 @@ Features:
 		A simple yet effective technique subtracts 2 from each digit of the password before storing it.
 		Example: Password 1234 is stored as 3456.
 
-3. Clients Management 👥
+2. Clients Management 👥
    
 	•	A separate file named clients.txt is used to store all the bank’s client data.
 	•	This file contains client information, enabling functionality such as listing, adding, updating, or deleting clients based on user permissions.
 	•	Operations on this file ensure a structured and organized system for client management.
 
-5. Role-Based Permissions 🛡️
+3. Role-Based Permissions 🛡️
    
 	•	The system uses an enum to define permissions for user roles:
 
@@ -47,13 +47,13 @@ Features:
 
 4. Functionalities 🛠️
 
-After successful login, users can choose from 10 options, depending on their permissions:
+	After successful login, users can choose from 10 options, depending on their permissions:
 	•	Client management: List, add, delete, update, or search for clients using clients.txt.
 	•	Transactions: Handle banking transactions and currency exchange.
 	•	System management: View transaction logs, login history, and manage system users and permissions.
 	•	Logging out: Safely end the session.
 
- ![GUI Bank](https://github.com/user-attachments/assets/4c3cf150-bde8-45d5-a68b-1863a6a3cda1)
+	 ![GUI Bank](https://github.com/user-attachments/assets/4c3cf150-bde8-45d5-a68b-1863a6a3cda1)
 
 
 5. File Handling 📂
